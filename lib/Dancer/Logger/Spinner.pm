@@ -60,6 +60,21 @@ spinner will run slowly.
 
 Each request matches another rotation of the spinner.
 
+=head1 SUBROUTINES/METHODS
+
+=head2 init
+
+Sets the spinner's characters and position.
+
+=head2 advance_spinner
+
+Advanced the spinner onefold by cleaning a terminal line and printing the next
+spinner position.
+
+=head2 _log
+
+Gets a message to log and calls C<advance_spinner>.
+
 =head1 SEE ALSO
 
 The Dancer Advent Calendar 2010.
